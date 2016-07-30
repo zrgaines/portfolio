@@ -1,0 +1,40 @@
+/*Color Variables*/
+$pearl:#82D4BB;
+$beau:#BEE9E8;
+$paleyellow: #F3FFBD;
+$elecblue: #75F4F4;
+$alabaster: #F5E6E8;
+$sonic: #7A7978;
+$afwhite: #EDF2F4;
+$coral: #545677;
+$davy: #4C5454;
+/*----------------*/
+
+
+body {
+    background: no-repeat center center fixed linear-gradient($elecblue, $paleyellow);
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.row {
+    text-align: center;
+}
+#headshot {
+    border-radius: 50%;
+    width: 40%;
+    margin: 20px 30%;
+}
+
+#aboutMe {
+    margin-top: 50px;
+    height: 200px;
+    background-color: white;
+    border: 4px solid $coral;
+    border-radius: 5px;
+    text-align: left;
+}
+p {
+    padding: 10px 20px 10px 20px;
+    font-size: 24px;
+}
