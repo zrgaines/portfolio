@@ -17,24 +17,33 @@ h1 {
 hr {
   display: block;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
   border: 3px solid #4C5454; }
 
+.projects {
+  height: 1000px;
+  background-color: #F3FFBD;
+  left: 0; }
+
 .row {
   text-align: center; }
 
 .aboutContent {
-  height: 450px;
-  margin-bottom: 100px; }
+  height: 450px; }
 
 #headshot {
-  margin: 40px auto; }
+  margin: 40px auto;
+  width: 60%;
+  border: #4C5454 solid 8px; }
 
 #nameIntro {
   margin-bottom: 80px; }
+
+#icode {
+  margin-top: 200px; }
 
 .textColumn {
   margin-top: 50px;
