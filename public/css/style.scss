@@ -13,9 +13,9 @@ $davy: #4C5454;
 
 body {
     background: no-repeat center center fixed linear-gradient($elecblue, $paleyellow);
-    background: -webkit-linear-gradient($elecblue, $paleyellow);
-    background: -o-linear-gradient($elecblue, $paleyellow);
-    background: -moz-linear-gradient($elecblue, $paleyellow);
+    background: no-repeat center center fixed -webkit-linear-gradient($elecblue, $paleyellow);
+    background: no-repeat center center fixed -o-linear-gradient($elecblue, $paleyellow);
+    background: no-repeat center center fixed -moz-linear-gradient($elecblue, $paleyellow);
     font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
