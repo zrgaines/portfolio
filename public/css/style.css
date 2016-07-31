@@ -5,6 +5,22 @@ body {
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase; }
 
+p {
+  padding: 10px 20px 10px 20px;
+  font-size: 24px; }
+
+h1 {
+  font-weight: bold; }
+
+hr {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 3px solid #4C5454; }
+
 .row {
   text-align: center; }
 
@@ -13,7 +29,10 @@ body {
   width: 40%;
   margin: 20px 30%; }
 
-#aboutMe {
+#nameIntro {
+  margin-bottom: 80px; }
+
+.textColumn {
   margin-top: 50px;
   height: 200px;
   background-color: white;
@@ -21,8 +40,14 @@ body {
   border-radius: 5px;
   text-align: left; }
 
-p {
-  padding: 10px 20px 10px 20px;
-  font-size: 24px; }
+#footer {
+  margin-top: 50px;
+  height: 100px;
+  width: 100%;
+  background-color: #4C5454;
+  text-align: center; }
+
+.fa-2x {
+  margin: 40px; }
 
 /*# sourceMappingURL=style.css.map */
