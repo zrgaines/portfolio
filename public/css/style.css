@@ -26,6 +26,9 @@ hr {
 .row {
   text-align: center; }
 
+.content {
+  height: 1200px; }
+
 #headshot {
   border-radius: 50%;
   margin: 30px 15%; }
@@ -35,11 +38,12 @@ hr {
 
 .textColumn {
   margin-top: 50px;
-  height: 200px;
+  height: 30%;
   background-color: white;
   border: 4px solid #545677;
   border-radius: 5px;
-  text-align: left; }
+  text-align: left;
+  font-size: 1.4em; }
 
 #footer {
   margin-top: 50px;

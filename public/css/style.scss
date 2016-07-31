@@ -38,6 +38,9 @@ hr {
 .row {
     text-align: center;
 }
+.content {
+    height: 1200px;
+}
 #headshot {
     border-radius: 50%;
     // width: 40%;
@@ -48,11 +51,12 @@ hr {
 }
 .textColumn {
     margin-top: 50px;
-    height: 200px;
+    height: 30%;
     background-color: white;
     border: 4px solid $coral;
     border-radius: 5px;
     text-align: left;
+    font-size: 1.4em;
 }
 
 #footer {
