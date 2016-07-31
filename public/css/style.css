@@ -28,6 +28,14 @@ hr {
   background-color: #F3FFBD;
   left: 0; }
 
+.projScreen {
+  width: 100%;
+  height: 100%; }
+
+.project {
+  height: 20%;
+  background-color: white; }
+
 .row {
   text-align: center; }
 
@@ -59,7 +67,10 @@ hr {
   height: 100px;
   width: 100%;
   background-color: #4C5454;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%; }
 
 .fa-4x {
   margin: 20px 40px 20px 40px; }

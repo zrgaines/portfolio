@@ -40,6 +40,14 @@ hr {
     background-color: $paleyellow;
     left: 0;
 }
+.projScreen {
+    width: 100%;
+    height: 100%;
+}
+.project {
+    height: 20%;
+    background-color: white;
+}
 .row {
     text-align: center;
 }
@@ -73,6 +81,9 @@ hr {
     width: 100%;
     background-color: $davy;
     text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 
 .fa-4x {
