@@ -34,6 +34,9 @@ hr {
   height: 500px;
   font-size: 1.6em; }
 
+.project p {
+  font-size: 1.2em; }
+
 .projScreen {
   width: 100%;
   height: 100%;
