@@ -41,7 +41,10 @@ hr {
     width: 40%;
     border: 3px solid $davy;
 }
-
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    transition: color 1s !important;
+}
 .projects {
     height: 500px;
     font-size: 1.6em;
@@ -101,4 +104,5 @@ hr {
 
 .fa-4x {
     margin:20px 40px 20px 40px;
+    transition: color 1s !important;
 }
