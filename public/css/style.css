@@ -88,7 +88,6 @@ a:hover, a:visited, a:link, a:active {
   width: 100%; }
 
 .fa-4x {
-  margin: 20px 40px 20px 40px;
-  transition: color 1s !important; }
+  margin: 20px 40px 20px 40px; }
 
 /*# sourceMappingURL=style.css.map */
