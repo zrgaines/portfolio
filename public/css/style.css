@@ -13,12 +13,12 @@ p {
 
 h1 {
   font-weight: bold;
-  font-size: 3.4em;
+  font-size: 3.4vw;
   text-align: center; }
 
 h3 {
   font-weight: bold;
-  font-size: 2.0em; }
+  font-size: 2.0vw; }
 
 hr {
   display: block;
@@ -37,9 +37,9 @@ a:hover, a:visited, a:link, a:active {
   font-size: 18px;
   z-index: 1000;
   padding: 5px;
-  width: 6em;
+  width: 6vw;
   position: fixed;
-  top: 2em;
+  top: 2vw;
   right: 89vw;
   text-align: left !important; }
 
@@ -48,10 +48,10 @@ a:hover, a:visited, a:link, a:active {
 
 .projects {
   height: 500px;
-  font-size: 1.6em; }
+  font-size: 1.6vw; }
 
 .project p {
-  font-size: 1.2em; }
+  font-size: 1.2vw; }
 
 .projScreen {
   width: 100%;
@@ -67,11 +67,12 @@ a:hover, a:visited, a:link, a:active {
   text-align: center; }
 
 .aboutContent {
+  margin-top: 50px;
   height: 200px; }
 
 #aboutMe p {
   font-weight: bold;
-  font-size: 3.4em;
+  font-size: 6vw;
   text-align: center;
   display: inline; }
 
@@ -84,7 +85,7 @@ a:hover, a:visited, a:link, a:active {
   margin-bottom: 80px; }
 
 #icode {
-  margin-top: 200px; }
+  margin-top: 400px; }
 
 .textColumn {
   margin-top: 50px;
@@ -93,7 +94,7 @@ a:hover, a:visited, a:link, a:active {
   border: 4px solid #545677;
   border-radius: 5px;
   text-align: left;
-  font-size: 3.0em; }
+  font-size: 3.0vw; }
 
 #footer {
   margin-top: 50px;
@@ -119,7 +120,7 @@ a:hover, a:visited, a:link, a:active {
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
-  font-size: 3.2em; }
+  font-size: 3.2vw; }
 
 @keyframes blink {
   0% {

@@ -1,9 +1,9 @@
 $(document).ready(function(){ 
   $("#typed").typed({
     strings: ["looking for a job.",
-              "learning React.js",
+              "learning React.js.",
               "living in Austin, TX.",
-              "enjoying pineapple on his pizza.",
+              "eating ramen.",
               "wanting an HTC Vive.",
               "playing around with three.js.",
               "making his portfolio better.",
