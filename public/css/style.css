@@ -69,14 +69,15 @@ a:hover, a:visited, a:link, a:active {
   display: inline; }
 
 .aboutContent {
-  margin-top: 50px;
-  height: 200px; }
+  margin-top: 50px; }
 
-#aboutMe p {
-  font-weight: bold;
-  font-size: 6vw;
-  text-align: center;
-  display: inline; }
+#aboutMe {
+  height: 600px; }
+  #aboutMe p {
+    font-weight: bold;
+    font-size: 6vw;
+    text-align: center;
+    display: inline; }
 
 #headshot {
   margin: 40px auto;
