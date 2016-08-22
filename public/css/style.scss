@@ -69,6 +69,11 @@ a:hover, a:visited, a:link, a:active {
 .aboutContent {
     height: 450px;
 }
+#aboutMe {
+    p {
+        font-size: 1.2em;
+    }
+}
 #headshot {
     margin: 40px auto;
     width: 40%;
