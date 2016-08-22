@@ -61,6 +61,7 @@ a:hover, a:visited, a:link, a:active {
     height: 500px;
 }
 .project{
+    float: none;
     p {
         font-size: 2vw;
     }
@@ -77,6 +78,7 @@ a:hover, a:visited, a:link, a:active {
 }
 .row {
     text-align: center;
+    display: inline;
 }
 .aboutContent {
     margin-top: 50px;

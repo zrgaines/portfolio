@@ -49,8 +49,10 @@ a:hover, a:visited, a:link, a:active {
 .projects {
   height: 500px; }
 
-.project p {
-  font-size: 2vw; }
+.project {
+  float: none; }
+  .project p {
+    font-size: 2vw; }
 
 .projScreen {
   width: 100%;
@@ -63,7 +65,8 @@ a:hover, a:visited, a:link, a:active {
   margin: 50px auto; }
 
 .row {
-  text-align: center; }
+  text-align: center;
+  display: inline; }
 
 .aboutContent {
   margin-top: 50px;
