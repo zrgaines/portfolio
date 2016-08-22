@@ -18,7 +18,7 @@ h1 {
 
 h3 {
   font-weight: bold;
-  font-size: 2.0vw; }
+  font-size: 3.0vw; }
 
 hr {
   display: block;
@@ -47,11 +47,10 @@ a:hover, a:visited, a:link, a:active {
   color: #4C5454; }
 
 .projects {
-  height: 500px;
-  font-size: 1.6vw; }
+  height: 500px; }
 
 .project p {
-  font-size: 1.2vw; }
+  font-size: 2vw; }
 
 .projScreen {
   width: 100%;
@@ -120,7 +119,7 @@ a:hover, a:visited, a:link, a:active {
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
-  font-size: 3.2vw; }
+  font-size: 5vw; }
 
 @keyframes blink {
   0% {
