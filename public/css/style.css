@@ -71,13 +71,10 @@ a:hover, a:visited, a:link, a:active {
 .aboutContent {
   margin-top: 50px; }
 
-#aboutMe {
-  height: 600px; }
-  #aboutMe p {
-    font-weight: bold;
-    font-size: 4.8vw;
-    text-align: center;
-    display: inline; }
+#aboutMe p {
+  font-weight: bold;
+  text-align: center;
+  display: inline; }
 
 #headshot {
   margin: 40px auto;
@@ -86,9 +83,6 @@ a:hover, a:visited, a:link, a:active {
 
 #nameIntro {
   margin-bottom: 80px; }
-
-#icode {
-  margin-top: 400px; }
 
 .textColumn {
   margin-top: 50px;
@@ -118,6 +112,26 @@ a:hover, a:visited, a:link, a:active {
   -moz-animation-duration: 3s;
   -webkit-animation-duration: 3s; }
 
+@media screen and (min-device-width: 800px) {
+  #aboutMe {
+    min-height: 70vh;
+    max-height: 70vh;
+    padding-top: 50px; }
+    #aboutMe p {
+      font-size: 4.8vw; }
+
+  #icode {
+    margin-top: 30vh; } }
+@media screen and (max-device-width: 799px) {
+  #aboutMe {
+    min-height: 20vh;
+    max-height: 70vh; }
+
+  p {
+    font-size: 6vw; }
+
+  #icode {
+    margin-top: 10vh; } }
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;

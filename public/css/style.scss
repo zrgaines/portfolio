@@ -84,10 +84,8 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 50px;
 }
 #aboutMe {
-    height: 600px;
     p {
         font-weight: bold;
-        font-size: 4.8vw;
         text-align: center;
         display: inline;
     }
@@ -100,9 +98,6 @@ a:hover, a:visited, a:link, a:active {
 }
 #nameIntro {
     margin-bottom: 80px;
-}
-#icode {
-    margin-top: 400px;
 }
 .textColumn {
     margin-top: 50px;
@@ -136,6 +131,33 @@ a:hover, a:visited, a:link, a:active {
     -webkit-animation-duration: 3s;
 }
 
+@media screen and (min-device-width: 800px){
+    #aboutMe {
+        min-height: 70vh;
+        max-height: 70vh;
+        padding-top: 50px;
+        p {
+            font-size: 4.8vw;
+        }
+    }
+    #icode {
+        margin-top: 30vh;
+    }
+}
+
+@media screen and (max-device-width: 799px){
+    #aboutMe {
+        min-height: 20vh;
+        max-height: 70vh;
+    }
+    p {
+        font-size: 6vw;
+    }
+    #icode {
+        margin-top: 10vh;
+    }
+}
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -143,6 +165,8 @@ a:hover, a:visited, a:link, a:active {
     animation: blink 0.7s infinite;
     font-size: 5vw;
 }
+
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
