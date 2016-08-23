@@ -6,7 +6,6 @@ $(document).ready(function(){
               "living in Austin, TX.",
               "thinking about Tokyo 2020.",
               "sad that GA is over.",
-              "watching South Park.",
               "eating ramen.",
               "wanting an HTC Vive.",
               "playing around with three.js.",
