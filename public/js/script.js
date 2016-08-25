@@ -5,10 +5,10 @@ $(document).ready(function(){
               "learning React.js.",
               "living in Austin, TX.",
               "thinking about Tokyo 2020.",
+              "playing around with three.js.",
               "sad that GA is over.",
               "eating ramen.",
               "wanting an HTC Vive.",
-              "playing around with three.js.",
               "making his portfolio better.",
               "not missing Michigan weather."
               
