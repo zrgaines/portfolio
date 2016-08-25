@@ -91,11 +91,6 @@ a:hover, a:visited, a:link, a:active {
     }
     
 }
-#headshot {
-    margin: 40px auto;
-    width: 40%;
-    border: $davy solid 8px;
-}
 #nameIntro {
     margin-bottom: 80px;
 }
@@ -131,7 +126,7 @@ a:hover, a:visited, a:link, a:active {
     -webkit-animation-duration: 3s;
 }
 
-@media screen and (min-device-width: 800px){
+@media screen and (min-device-width: 1024px){
     #aboutMe {
         min-height: 70vh;
         max-height: 70vh;
@@ -145,7 +140,7 @@ a:hover, a:visited, a:link, a:active {
     }
 }
 
-@media screen and (max-device-width: 799px){
+@media screen and (max-device-width: 1023px){
     #aboutMe {
         min-height: 20vh;
         max-height: 70vh;
