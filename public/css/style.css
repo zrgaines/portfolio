@@ -132,6 +132,9 @@ a:hover, a:visited, a:link, a:active {
 
   #icode {
     margin-top: 10vh; } }
+@media screen and (max-device-width: 1024px) {
+  .floatingNav.row {
+    display: none; } }
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
