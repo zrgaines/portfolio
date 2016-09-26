@@ -1,13 +1,13 @@
 $(document).ready(function(){ 
   $("#typed").typed({
     strings: ["a front-end web developer.",
-              "looking for a job.",
+              "working at Cylance soon.",
               "learning React.js.",
               "living in Austin, TX.",
               "thinking about Tokyo 2020.",
               "playing around with three.js.",
               "sad that GA is over.",
-              "eating ramen.",
+              "eating sushi.",
               "wanting an HTC Vive.",
               "making his portfolio better.",
               "not missing Michigan weather."
